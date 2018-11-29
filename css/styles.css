@@ -1,0 +1,322 @@
+body{
+    background: #f6f6f6;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold !important;
+}
+img.banner-image{
+    width: 100%;
+    max-width: 100%;
+    height: 90vh;
+}
+.content-container{
+    /* background: #df81fd; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    /* text-align: center; */
+}
+.intro-container{
+    font-size: 20px;
+    height: 150px;
+    font-weight: 600;
+}
+.description{
+    width: 70%;
+    padding: 5px 15px 5px 5px;
+    background: #ffffff;
+}
+.description > p{
+    margin: 0;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+.days-count{
+    width: 30%;
+    text-align: center;
+    /* padding-top: 5px; */
+    color: #ffffff;
+}
+.days-count > div:first-child{
+    margin: 0px 10px 0px 10px;
+    background: #68BCA5;
+}
+.days-count > div:last-child{
+    text-transform: uppercase;
+    margin: 10px 10px 0px 10px;
+    height: 100px;
+    background: #68BCA5;
+    display: table;
+    height: calc(100% - 40px);
+    width: calc(100% - 20px);
+}
+.days{
+    font-size: 23px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.days > span:first-child{
+    font-size: 50px;
+}
+.nav-tabs-container{
+    margin-top: 20px;
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-item{
+    text-transform : uppercase;
+    color: #000000;
+}
+.nav-tabs .nav-link.active{
+    border: none;
+    border-bottom: 2px solid #cbd500;
+    font-weight: 600;
+    color: #000000;
+    background: none; 
+}
+a.nav-link{
+    color: #000000;
+    font-weight: 600;
+}
+a.nav-link:hover{
+    border: none;
+    box-shadow: 0 0 0;
+}
+
+.couple-section{
+    margin-top: 20px;
+}
+.couple-section > div{
+    width: 45%;
+    text-align: center;
+}
+/* .couple-section div img.him-her{
+    width: 500px;
+    height: 305px;
+    align-self: center;
+} */
+
+
+div.him-holder{
+    background: url("../assets/ninja.JPG") no-repeat center;
+}
+div.her-holder{
+    background: url("../assets/kavii.jpg") no-repeat center;
+}
+div.him-her{
+    height: 305px;
+    width: 230px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: auto 305px;
+}
+
+.wedding-details{
+    margin-top: 35px;
+}
+.wedding-details > div{
+    width: 50%;
+    padding-top: 30px;
+    height: 230px;
+    margin-top: 20px;
+}
+.reception-container{
+    width: 50%;
+    float: left;
+}
+.muhurtham-container{
+    width: 50%;
+    float: right;
+}
+.reception-details *, .muhurtham-details *{
+    font-weight: 600;
+    margin: 0px 25px;
+}
+.venue-details{
+    text-align: center;
+    margin-top: 20px;
+}
+.hall, .date{
+    margin-bottom: 0px;
+}
+.landmark{
+    font-size: 16px;
+}
+#rsvpExpiry h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0px !important;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+footer > div{
+    background: #68BCA5
+}
+footer > div > p{
+    margin: 0;
+    padding: 1.25rem;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+footer > div > p > img{
+    width: 50px;
+}
+.copyright{
+    margin: 0;
+    margin-top: 1.25rem;
+    font-size: 16px;
+}
+footer button{
+    margin-top: 20px;
+    background: #2e3871;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 1.25rem !important;
+}
+
+footer button img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* form for RSVP */
+.form {
+    /* height: 590px;
+    width: 400px; */
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: #666;
+    padding: 0px 0px;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, .25);
+  }
+  
+  .info {
+    padding: 10px;
+  }
+  
+ #panel7 h1, h2, p {
+    text-align: center;
+    padding: 0px;
+    margin: 5px 5px;
+  }
+  
+#panel7  h2 {
+    font-family: 'Josefin slab', cursive;
+    font-weight: 100;
+  }
+#panel8 h4{
+    text-align: center;
+    padding: 25px;
+    /* border: 1px solid #dddddd; */
+    background: #eee;
+    color: rgb(102,102,102);
+}
+  
+  p.line {
+    margin: 0px auto 20px auto;
+    color: #999;
+  }
+  
+  .form input.name, input.guests {
+    font-size: 15px;
+    color: #666;
+    padding: 6px;
+    margin: 25px auto 20px;
+    display: block;
+    width: 75%;  
+  }
+  
+  .attendance-container{
+      text-align: center;
+  }
+  
+  .btn-rsvp{
+    padding: 20px;
+    text-align: center;
+    
+  }
+  .btn-rsvp button{
+    border: none !important;
+    outline: none !important;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .btn-rsvp button:focus{
+    outline: 0 !important;
+  }
+
+.accept{
+    background: #cbd500;
+}
+/* .regret{
+    background: #68BCA5;
+} */
+
+
+@media only screen and (max-width: 1028px) {
+    .content-container{
+        width: 100%;
+    }
+    .intro-container, .couple-section{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        height: auto !important;
+    }
+    .couple-section{
+        text-align: center;
+    }
+    .days-count{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .description{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .wedding-details{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .reception-container, .muhurtham-container{
+        width: 100% !important;
+        float: none;
+        padding: 0;
+        margin: 0 !important;
+    }
+    .reception-container > div, .muhurtham-container > div{
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .couple-section > div{
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    img.banner-image{
+        width: 100%;
+        max-width: 100%;
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .couple-section > div > img{
+        width: 100%;
+    }
+}

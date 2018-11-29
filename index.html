@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kaviwedsninja</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <img class="banner-image" src="assets/testt.png" alt="" title="Kavi weds Ninja">
+    <div class="content-container container-fluid">
+        <section class="intro-container d-flex flex-row-reverse">
+            <div class="days-count">
+                <div>The ceremony begins in:</div>
+                <div><p class="days"><span id="numberOfDays"></span><br><span id="daysText"></span></p></div>
+            </div>
+            <div class="description">
+                <p>Hola!! We are in love and we want everyone to know it. Join us as we take the plunge and become MRS. and MR. Until then, why not learn a little more about us? :)</p>
+            </div>
+        </section>
+
+        <div class="nav-tabs-container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-justified indigo" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#panel5" role="tab"><i class="fa fa-user"></i> The couple</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#panel6" role="tab"><i class="fa fa-heart"></i> wedding</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-envelope"></i> RSVP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fa fa-envelope"></i> Photos</a>
+                </li>
+            </ul>
+
+            <!-- Tab panels -->
+            <div class="tab-content">
+                <!--Panel 1-->
+                <div class="tab-pane fade in show active" id="panel5" role="tabpanel">
+                    <section class="couple-section d-flex flex-row justify-content-between">
+                        <div class="d-flex flex-column">
+                            <div class="him-her her-holder">
+                                <!-- <img class="him-her" src="assets/kavii.jpg" alt=""> -->
+                            </div>
+                            <h1>HER</h1>
+                            <p>Sometimes I wonder how he puts up with me. Then I remember I put up with him. So we're even. Besides chocolate, he is my favourite. He slipped under my skin, invaded my blood and seized my heart.</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="him-her him-holder">
+                                <!-- <img class="him-her him-holder" src="assets/ninja.jpg" alt=""> -->
+                            </div>
+                            <h1>HIM</h1>
+                            <p>Trust me, I didn't want to fall in love, not at all. But at some point, she smiled, and holy cow, I blew it. Somewhere between all our laughs, long talks, stupid little fights, and all our lame jokes, I fell in love.</p>
+                        </div>
+                    </section>
+                </div>
+                <!--/.Panel 1-->
+                <!--Panel 2-->
+                <div class="tab-pane fade" id="panel6" role="tabpanel">
+                    <section class="wedding-details d-flex flex-row">
+                        <div class="reception-container">
+                            <div class="d-flex flex-row justify-content-center">
+                                <img src="assets/pexels-photo.jpg" alt="">
+                                <div class="reception-details">
+                                    <h2>Reception</h2>
+                                    <p class="date">17 Jan 2019</p>
+                                    <p>Thursday</p>
+                                    <p>6.30 PM onwards</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="muhurtham-container">
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="muhurtham-details">
+                                    <h2>Muhurtham</h2>
+                                    <p class="date">18 Jan 2019</p>
+                                    <p>Friday</p>
+                                    <p>9:00 AM - 10.30 AM</p>
+                                </div>
+                                <img src="assets/pexels-photo-169198.jpeg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                    <div class="venue-details">
+                        <h3>Venue:</h3>
+                        <p class="hall">Shree Balaji Mahal</p>
+                        <p class="hall">CLC Works Rd, New Colony, Chromepet, Chennai, Tamil Nadu 600044, India</p>
+                        <p class="landmark">(Only 500 metres from Chromepet bus stop)</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.157600216737!2d80.1384723!3d12.9533243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe90610b1ab107250!2sShree+Balaji+Mahal!5e0!3m2!1sen!2sie!4v1534445938024" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!--/.Panel 2-->
+                <!--Panel 3-->
+                <div class="tab-pane fade" id="panel7" role="tabpanel">
+                    <div class="form" id="rsvpForm">
+                        <div class ="info">
+                            <h1>RSVP</h1>
+                            <h2>for the wedding of</h2>
+                            <h1>Kavi & Ninja</h1>
+                            <p class= "line">________________________________________</p>
+                            <h2>The Details</h2>
+                            <p>Reception:</p>
+                            <p>Thursday, Jan 17, 2019</p>
+                            <p>6:30 PM onwards</p>
+                            <br>
+                            <p>Wedding:</p>
+                            <p>Friday, Jan 18, 2019</p>
+                            <p>9:00 AM - 10.30 AM</p>
+                            <br>
+                            <h2>Ceremony & Reception</h2>
+                            <p class= "line">________________________________________</p>
+                            <input type="text" class="name" placeholder="Name">
+                            <input type="number" class="guests" placeholder="# of Guests">
+
+                            <div class="attendance-container">
+                            <p>I'd be coming for:</p>
+                            <input type="checkbox" name="attendance" value="reception"> Reception<br>
+                            <input type="checkbox" name="attendance" value="wedding"> Wedding<br>
+                            </div>
+
+                            <div class="btn-rsvp">
+                                <button class ="btn accept">Accept</button>
+                                <button class ="btn regret btn-danger">Regret</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="rsvpExpiry">
+                        <h1>We're happily married now!</h1>
+                    </div>
+                </div>
+                <!--/.Panel 3-->
+                <!-- Panel 8 -->
+                <div class="tab-pane fade" id="panel8" role="tabpanel">
+                    <h4>Coming Soon...</h4>
+                </div>
+                <!-- /Panel8 -->
+            </div>
+        </div>  
+
+    </div>
+    <footer>
+        <div>
+            <p><img src="assets/couple-icon.png" alt=""> Bring your Dancing Shoes & shake a leg with us! <img src="assets/glass-icon.png" alt=""></p>
+        </div>
+        <a href="javascript:void(0);" download>
+            <button type="button" class="btn btn-dload">
+                 Download Invitation
+            </button></a>
+        <p class="copyright">Site built by Kavi and Ninja</p>
+    </footer>
+<script src="bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+
+</html>
