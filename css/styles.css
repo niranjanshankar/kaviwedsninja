@@ -7,8 +7,13 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-weight: bold !important;
 }
-img.banner-image{
+div.banner-holder{
     width: 100%;
+    background: rgba(104, 188, 165,0.1);
+    text-align: center;
+}
+img.banner-image{
+    width: auto;
     max-width: 100%;
     /* height: 90vh; */
 }
@@ -179,7 +184,7 @@ footer > div > p{
     margin: 0;
     padding: 1.25rem;
     font-weight: bolder;
-    font-size: 2vw;
+    font-size: 16px;
 }
 footer > div > p > img{
     width: 50px;
@@ -315,6 +320,12 @@ footer button img{
     .reception-container > div, .muhurtham-container > div{
         align-items: center;
     }
+    .reception-details *{
+        margin: 0px 25px 0px 0px !important;
+    }
+    .muhurtham-details *{
+        margin: 0px 0px 0px 25px !important;
+    }
 }
 
 @media only screen and (max-width: 959px) {
@@ -327,7 +338,7 @@ footer button img{
     img.banner-image{
         width: 100%;
         max-width: 100%;
-        height: 50vh;
+        /* height: 50vh; */
     }
 
     .venue-details  iframe{
