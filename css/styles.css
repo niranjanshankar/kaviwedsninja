@@ -99,11 +99,9 @@ a.nav-link:hover{
     width: 45%;
     text-align: center;
 }
-/* .couple-section div img.him-her{
-    width: 500px;
-    height: 305px;
-    align-self: center;
-} */
+ .couple-section h1{
+    margin-top: 20px;
+} 
 
 
 div.him-holder{
@@ -222,6 +220,46 @@ footer button img{
   
   .info {
     padding: 10px;
+    text-align: center;
+  }
+  .info textarea{
+    text-align: left;
+    padding: 10px;
+    outline: none;
+    border-color: #dddddd;
+    margin-bottom: 25px;
+     max-width: 300px;
+    max-height: 150px;
+  }
+  .info input{
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    height: 20px;
+    outline: none;
+    text-align: center;
+  }
+
+  .info h4{
+    text-align: center;
+  }
+  .info h3{
+    text-align: center;
+  }
+  .info p.with-love{
+    margin: 0 !important;
+        font-weight: bold;
+  }
+  .info .button-holder{
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  .button-holder button{
+    border: none;
+    outline: none;
+    background: #68BCA5;
+    padding: 7px 15px;
+    border-radius: 4px;
+    cursor: pointer;
   }
   
  #panel7 h1, h2, p {
@@ -234,6 +272,13 @@ footer button img{
     font-family: 'Josefin slab', cursive;
     font-weight: 100;
   }
+#wishesSent{
+    padding: 25px;
+}
+#wishesSent .button-holder{
+    text-align: center;
+    margin-top: 20px;
+}
 #panel8 h4{
     text-align: center;
     padding: 25px;
@@ -304,6 +349,9 @@ footer button img{
     .description{
         width: 100%;
     }
+    div.him-holder{
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 959px) {
@@ -344,6 +392,17 @@ footer button img{
     .venue-details  iframe{
         width: 100% !important;
     }
+
+    a.nav-link{
+        font-size: 14px !important;
+    }
+    span.hidden-xs{
+        display: none !important;
+    }
+    footer > div > p{
+    font-size: 12px;
+    padding: 10px;
+}
 }
 
 @media only screen and (max-width: 500px) {

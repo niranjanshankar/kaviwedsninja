@@ -3,11 +3,12 @@
 <head>
     <title>kaviwedsninja</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="description" content="We are in love and we want everyone to know it. Join us as we take the plunge and become MRS. and MR. Wedding site of Kavi & Ninja.">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <link rel="shortcut icon" href="assets/favicon.jpeg" type="image/jpeg" />
+    <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
@@ -30,13 +31,15 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs nav-justified indigo" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#panel5" role="tab"><i class="fa fa-user"></i> The couple</a>
+                    <a class="nav-link active" data-toggle="tab" href="#panel5" role="tab"><i class="fa fa-user"></i> 
+                    <span class="hidden-xs">The</span> couple
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#panel6" role="tab"><i class="fa fa-heart"></i> wedding</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-envelope"></i> RSVP</a>
+                    <a class="nav-link" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-envelope"></i> Wish</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fa fa-envelope"></i> Photos</a>
@@ -75,7 +78,7 @@
                                     <h2>Reception</h2>
                                     <p class="date">17 Jan 2019</p>
                                     <p>Thursday</p>
-                                    <p>6.30 PM onwards</p>
+                                    <p>6:30 PM onwards</p>
                                 </div>
                             </div> 
                         </div>
@@ -85,7 +88,7 @@
                                     <h2>Muhurtham</h2>
                                     <p class="date">18 Jan 2019</p>
                                     <p>Friday</p>
-                                    <p>9:00 AM - 10.30 AM</p>
+                                    <p>9:00 To 10:30 AM</p>
                                 </div>
                                 <img src="assets/pexels-photo-169198.jpeg" alt="">
                             </div>
@@ -105,39 +108,28 @@
                 <!--Panel 3-->
                 <div class="tab-pane fade" id="panel7" role="tabpanel">
                     <div class="form" id="rsvpForm">
-                        <div class ="info">
-                            <h1>RSVP</h1>
-                            <h2>for the wedding of</h2>
-                            <h1>Kavi & Ninja</h1>
+                        <div class ="info" id="sendWishes">
+                            <h4>Tips for</h>
+                            <h3>THE NEWLY WEDS</h3>
                             <p class= "line"></p>
-                            <h2>The Details</h2>
-                            <p>Reception:</p>
-                            <p>Thursday, Jan 17, 2019</p>
-                            <p>6:30 PM onwards</p>
-                            <br>
-                            <p>Wedding:</p>
-                            <p>Friday, Jan 18, 2019</p>
-                            <p>9:00 AM - 10.30 AM</p>
-                            <br>
-                            <h2>Ceremony & Reception</h2>
-                            <p class= "line"></p>
-                            <input type="text" class="name" placeholder="Name">
-                            <input type="number" class="guests" placeholder="# of Guests">
+                            <h3>My wish for your marriage is...</h3>
+                            <!-- <form id="google-form"> -->
+                                <textarea name="content" rows="3" cols="40" id="wishContent"></textarea>
+                            
+                                <p class="with-love">With Love,</p>
+                                <input name="person" type="text" id="name"/>
 
-                            <div class="attendance-container">
-                            <p>I'd be coming for:</p>
-                            <input type="checkbox" name="attendance" value="reception"> Reception<br>
-                            <input type="checkbox" name="attendance" value="wedding"> Wedding<br>
-                            </div>
-
-                            <div class="btn-rsvp">
-                                <button class ="btn accept">Accept</button>
-                                <button class ="btn regret btn-danger">Regret</button>
+                                <div class="button-holder">
+                                    <button id="wishBtn" onclick="sendWish()">Send My Wish</button>                                
+                                </div>
+                            <!-- </form> -->
+                        </div>
+                        <div id="wishesSent">
+                            <p>Thanks for your wonderful wishes. You are the best. Trust us, this means a lot.</p>
+                            <div class="button-holder">
+                                <button onclick="showWishHolder()">Send Another Wish</button>
                             </div>
                         </div>
-                    </div>
-                    <div id="rsvpExpiry">
-                        <h1>We're happily married now!</h1>
                     </div>
                 </div>
                 <!--/.Panel 3-->
@@ -154,11 +146,11 @@
         <div>
             <p><img src="assets/couple-icon.png" alt=""> Bring your Dancing Shoes & shake a leg with us! <img src="assets/glass-icon.png" alt=""></p>
         </div>
-        <a href="javascript:void(0);" download>
+       <!--  <a href="javascript:void(0);" download>
             <button type="button" class="btn btn-dload">
                  Download Invitation
-            </button></a>
-        <p class="copyright">Site built by Kavi and Ninja</p>
+            </button></a> -->
+        <p class="copyright">When web developers tie the knot</p>
     </footer>
 <script src="bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
